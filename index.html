@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Our team's custom CSS code -->
+    <link href="style.css" type="text/css" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -15,51 +17,169 @@
 </head>
 
 <body>
-
     <!-- navbar -->
     <header>
         <nav class="nav-wrapper ">
             <div class="container">
-                <a href="" class="brand-logo">Miami Varsity Esports</a>
+                <!-- defined custom navbar logo styling -->
+                <img class="navbar-img" src="media/logos/ESports M-01.jpg" alt="Miami University E-Sports Logo">
+                <a href="" class="brand-logo">Miami University Varsity Esports</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
                 </a>
+
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Leadership</a></li>
+                    <li><a href="#!">The Arena</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Sponsors</a></li>
+                </ul>
+
                 <ul class="right hide-on-med-and-down">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">DROP DOWN TEST<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="teams.html">TEAMS</a></li>
                     <li><a href="#">SCHEDULE</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NEWS</a></li>             
                     <li><a href="#">RECRUITING</a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">DROP DOWN TEST<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="teams.html">TEAMS</a></li>
                     <li><a href="#">SCHEDULE</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NEWS</a></li>                 
                     <li><a href="#">RECRUITING</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+    
+    <!-- Intro Text / Twitch Widget -->
+
+    <div class="container">
+        <div class="section">
+            
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="icon-block">
+                        <h5 class="center">Content - General Program Info</h5>
+                        
+                        <p class="light">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col s12 m6">
+                    <div class="icon-block">
+                        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+                            <div id="SamplePlayerDivID"></div>
+                            <script type="text/javascript">
+                            var options = {
+                                width: "100%",
+                                height: "100%",
+                                channel: "miamiuniversity",
+                            };
+                            var player = new Twitch.Player("SamplePlayerDivID", options);
+                            player.setVolume(0.5);
+                        </script>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <br><br>
+    </div>
 
     <!-- photo / grid -->
-
+    
+    <div class="container">
+        <div class="section">
+            
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h5 class="center">Content 1</h5>
+                        
+                        <p class="light">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h5 class="center">Content 2</h5>
+                        
+                        <p class="light">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h5 class="center">Content 3</h5>
+                        
+                        <p class="light">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br><br>
+    </div>
+    
     <!-- parallax -->
-
+    
     <!-- services / tabs -->
-
+    
     <!-- parallax -->
-
+    
     <!-- contact form -->
-
+    
     <!-- footer -->
-
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Miami University
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown();
         });
     </script>
 </body>
