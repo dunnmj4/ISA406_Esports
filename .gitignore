@@ -1,2 +1,4 @@
 # index.html
-.mp4
+*.mp4
+
+*.media
