@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper ">
+            <div class="container">
+                <!--TODO: REPLACE ONCE TREE IS FINALIZED-->
+                <a href="index.html" class="brand-logo">Miami Varsity Esports</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="teams.html">TEAMS</a></li>
+                    <li><a href="/pages/schedule.html">SCHEDULE</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="/pages/recruiting.html">RECRUITING</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="teams.html">TEAMS</a></li>
+                    <li><a href="#">SCHEDULE</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="/pages/recruiting.html">RECRUITING</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdnD42eGl7FKiPm4L_4VRx4bdUvoU_gfIHdQGpRiocZBZyOQ/viewform?embedded=true" width="640" height="1312" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+</html>
