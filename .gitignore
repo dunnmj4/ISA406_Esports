@@ -1,4 +1,3 @@
-# index.html
-*.mp4
-
-*.media
+# Static content
+images
+videos
