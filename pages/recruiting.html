@@ -20,36 +20,23 @@
    <style>
     * {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      h2{
-          align-content: center;
       }
       
       /* Container for flexboxes */
-      section {
+      .parent {
         display: -webkit-flex;
         display: flex;
+        size: 500;
       }
-      
-      /* Style the navigation menu */
-       .image1 {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 2;
-        padding: 20px;
-        align-content: center;
+
+      .cent{
+          text-align: center;
       }
-      
-      /* Style the content */
-      article {
-        -webkit-flex: 3;
-        -ms-flex: 3;
-        flex: 3;
-        background-color: #f1f1f1;
-        padding: 10px;
+
+      .child{
+        width: auto; /* Or whatever */
+        height: auto; /* Or whatever */
+        margin: auto;  /* Magic! */
       }
     
       @media (max-width: 600px) {
@@ -94,15 +81,13 @@
         </div>
     </header>
    
-    <h2 align-content = "center">Why Miami?</h2>
-    <section>
-    <article>
-        <img class="image1" src = "/static/images/recruitPage/game-studies-ranking-red.png" frameborder="10" marginheight="10" marginwidth="10" alt="Loading..." flex="2"></img>
-    </article>
-    <article><p>Miami's Varsity ESports has stood out as one of the leading pioneers in the collegiate
-        ESports community. Since it's creation, the program has stood as among one of the best in the United States.
-
-    </p></article>
+    <h2 class="cent">Why Miami?</h2>
+    <section class="cent">
+    <div class="parent">
+    <img class="child" src = "/static/images/recruitPage/game-studies-ranking-red.png" frameborder="10" marginheight="10" marginwidth="10" alt="Loading..." flex="2" background="miami-red"></img>
+    <p class="child">Miami's Varsity ESports has stood out as one of the leading pioneers in the collegiate
+    ESports community. Since it's creation, the program has stood as among one of the best, receiving national recognition. </p>
+    </div>
     </section>
    
 
