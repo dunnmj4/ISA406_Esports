@@ -22,22 +22,6 @@
         box-sizing: border-box;
       }
       
-      /* Container for flexboxes */
-      .parent {
-        display: -webkit-flex;
-        display: flex;
-        size: 500;
-      }
-
-      .cent{
-          text-align: center;
-      }
-
-      .child{
-        width: auto; /* Or whatever */
-        height: auto; /* Or whatever */
-        margin: auto;  /* Magic! */
-      }
     
       @media (max-width: 600px) {
         section {
@@ -48,7 +32,7 @@
     </style>
 </head>
 
-<body>
+<body class="recruit-body">
     <header>
         <div class="navbar-fixed">
             <nav class="nav-wrapper miami-red">
@@ -81,12 +65,38 @@
         </div>
     </header>
    
-    <h2 class="cent">Why Miami?</h2>
-    <section class="cent">
-    <div class="parent">
-    <img class="child" src = "/static/images/recruitPage/game-studies-ranking-red.png" frameborder="10" marginheight="10" marginwidth="10" alt="Loading..." flex="2" background="miami-red"></img>
-    <p class="child">Miami's Varsity ESports has stood out as one of the leading pioneers in the collegiate
-    ESports community. Since it's creation, the program has stood as among one of the best, receiving national recognition. </p>
+    
+    <!-- Background Video and Overlay text-->
+    <div>
+        <h1 style="color: #c8102e" class="recruit-cent" align-content="center" font-size="3em"><b>Why Miami?</b></h1>
+    </div>
+
+    <section>
+    <div class="recruit-parent" style="background-color: white;">
+    <img class="recruit-child" src = "/static/images/recruitPage/game-studies-ranking-red.png" frameborder="10" marginheight="10" marginwidth="10" alt="Loading..." flex="2" background="miami-red"></img>
+    <div class="recruit-child">
+        <p>Miami's Varsity Esports has stood out as one of the leading pioneers in the collegiate
+    ESports community. Since it's creation, the program has stood as among one of the best, receiving national recognition.
+    Our young program has already compiled many achievements, including winning the inaugural National Association of 
+    Collegiate Esports Overwatch Championship. Our program prides itself in helping players to develop and hone their skills
+    as players to compete amongst the top national competition. In addition to our five varsity squads, our Hatchery features 
+    players training and fine-tuning skills to prepare for the varsity level. </p>
+
+    <p>In addition to competing with the top collegiate Esports players in the country, our academic programs in the 
+    Department of Emerging Technologies in Business and Design are nationally acclaimed, preparing students to enter this exploding industry.
+    The department is committed to providing opportunities that interactive media present through hands-on, interactive and project-based courses and experiences, 
+    where students are encouraged to experiment, innovate and collaborate. We offer undergraduate, graduate, and graduate-certificate programs.
+    </p>
+
+    <p>Excited to get involved? Miami University’s Varsity Esports Team proudly hosts our Esports Summer Camp on the 
+    Miami University Oxford Campus. From July 7-14th 2020, you can come learn about the world of Esports and compete 
+    in nightly camp tournaments to develop skills, meet new friends, and learn about potential careers in Esports, games and marketing.
+    To learn more about our camp, <a src="https://www.miamioh.edu/cca/academics/departments/etbd/games-simulation/esports-camp/index.html">
+    visit our camp website</a>.</p>
+
+    <p>Ready to jumpstart your career in Esports and compete? <a src="https://miamioh.edu/cca/academics/departments/etbd/admission/index.html">
+    Apply here</a>.</p>
+    </div>
     </div>
     </section>
    
@@ -99,6 +109,38 @@
             $('.parallax').parallax();
         });
     </script>
+
+    <footer class="page-footer miami-red">
+
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Interested in joining our team?</h5>
+                    <p class="grey-text text-lighten-4">
+                        Reach out to us by filling our <a href="contactForm.html">contact form</a> to learn more information regarding 
+                        recruiting, summer camps, and opportunities in our Department of Emerging Technology in Business and Design!
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Stay up to Date</h5>
+                    <ul>
+                        <a href="https://www.twitch.tv/miamiuniversity"><img src="/static/images/logos/twitch.png"
+                                alt="Miami University Twitch" class="social-icon"></a>
+                        <a href="https://twitter.com/miamiohesports?lang=en"><img src="/static/images/logos/twitter.png"
+                                alt="Miami University Twitter" class="social-icon"></a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Miami University
+            </div>
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
