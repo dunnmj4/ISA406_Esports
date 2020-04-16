@@ -59,6 +59,7 @@
     opacity: .65;
   }
 
+<<<<<<< HEAD
    /* Container for flexboxes */
    .recruit-parent {
     display: -webkit-flex;
@@ -79,3 +80,9 @@
     height: auto; /* Or whatever */
     margin: 20px;  /* Magic! */
   }
+=======
+.card-image {
+    width:  auto;
+    height: 200px;
+}
+>>>>>>> ae1c2042f8c58127cf3825cc76d117da0e050a21
