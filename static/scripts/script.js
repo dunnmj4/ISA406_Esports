@@ -12,3 +12,8 @@ $(document).ready(function () {
 $(document).ready(function(){
     $('.parallax').parallax();
   });
+
+//Scrollspy
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
