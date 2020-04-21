@@ -1,54 +1,102 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/static/images/logos/favicon.png" />
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <title>Document</title>
+    <title>Miami Varsity Esports</title>
+    <!-- Our team's custom CSS -->
+    <link href="/static/stylesheets/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- navbar -->
     <header>
-        <nav class="nav-wrapper ">
-            <div class="container">
-                <!--TODO: REPLACE ONCE TREE IS FINALIZED-->
-                <a href="index.html" class="brand-logo">Miami Varsity Esports</a>
-                <a href="" class="sidenav-trigger" data-target="mobile-menu">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="teams.html">TEAMS</a></li>
-                    <li><a href="schedule.html">SCHEDULE</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="recruiting.html">RECRUITING</a></li>
-                </ul>
-                <ul class="sidenav grey lighten-2" id="mobile-menu">
-                    <li><a href="teams.html">TEAMS</a></li>
-                    <li><a href="#">SCHEDULE</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">RECRUITING</a></li>
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper miami-red">
+                <div class="container">
+                    <!-- defined custom navbar logo styling -->
+                    <img class="navbar-img" src="/static/images/logos/ESports M-01.png"
+                        alt="Miami University E-Sports Logo">
+                    <a href="/pages/index.html" class="brand-logo"></a>
+                    <a href="/pages/index.html" class="sidenav-trigger" data-target="mobile-menu">
+                        <i class="material-icons">menu</i>
+                    </a>
+
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#!">Leadership</a></li>
+                        <li><a href="#!">The Arena</a></li>
+                        <li><a href="/pages/about/sponsors.html">Sponsors</a></li>
+                    </ul>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="teams.html">TEAMS</a></li>
+                        <li><a href="/pages/schedule.html">SCHEDULE</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="/pages/recruiting.html">RECRUITING</a></li>
+                        <li><a href="/pages/contactForm.html">CONTACT US</a></li>
+                    </ul>
+
+                    <!-- <ul class="sidenav grey lighten-2" id="mobile-menu">
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">DROP DOWN TEST<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                            <li><a href="teams.html">TEAMS</a></li>
+                            <li><a href="#">SCHEDULE</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">RECRUITING</a></li>
+                    </ul> -->
+                </div>
+            </nav>
+        </div>
+        <nav class = "nav-wrapper transparent">
+            <div class="containter">
+                <ul class ="right hide-on-med-and-down">
+                    <li><a class="red-text" href="#">CS:GO</a></li>
+                    <li><a class="red-text" href="#">Hearthstone</a></li>
+                    <li><a class="red-text" href="#">League of Legends</a></li>
+                    <li><a class="red-text" href="#">Overwatch</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <h1 class="center-align red-text">Varsity Teams</h1>
-    <h1>Test</h1>
-    <h1>Test</h1>
-    <h1>Test</h1>
     <div class="parallax-container">
         <div class="parallax">
-            <img src="Media/Logos/campus.jpg" alt="" class="responsive-img">
+            <img src="/static/images/logos/room.jpg" alt="" class="responsive-img">
         </div>
     </div>
-    <H1>Test</H1>
-    <h1>Test</h1>
+    <H1 class="center-align red-text">CS:GO</H1>
+    <div class="row">
+        <div class="col s12 m4">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="/static/images/players/brandon_glaser.jpg.jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
     <h1>Test</h1>
     <h1>Test</h1>
     <h1>Test</h1>
