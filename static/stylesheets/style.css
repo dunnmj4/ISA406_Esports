@@ -1,9 +1,32 @@
-.navbar-img {
+/* General Styling */
+.miami-red {
+    background-color: #c8102e;
+}
+
+/* Navbar and Footer Styling */
+#navbar-img {
     width: 55px;
     height: auto;
     padding-top: 5px;
 }
 
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-padding {
+    padding-left: 2%;
+    padding-right: 2%; 
+}
+
+#copyright {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+}
+
+/* Video Styling */
 .section-video {
     position: relative;
     width: 100%;
@@ -15,7 +38,15 @@
     object-fit: cover;
 }
 
-.recruit-body{
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Content Page Styling */
+.recruit-body {
     background-image: url("/static/images/recruitPage/miami_bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -32,23 +63,6 @@
     opacity: .65;
 }
 
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-
-.miami-red {
-    background-color: #c8102e;
-}
-
-.social-icon {
-    width: 50px;
-    height: 50px;
-}
-
 .centered {
     position: absolute;
     top: 50%;
@@ -57,25 +71,24 @@
     font-size: 3rem;
     background: white;
     opacity: .65;
-  }
+}
 
-   /* Container for flexboxes */
-   .recruit-parent {
-    display: -webkit-flex;
-    display: flex;
-    size: 50;
-    margin: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+/* Container for flexboxes */
+.recruit-parent {
+display: -webkit-flex;
+display: flex;
+size: 50;
+margin: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
 
-  }
+.recruit-cent{
+    text-align: center;
+}
 
-  .recruit-cent{
-      text-align: center;
-  }
-
-  .recruit-child{
-    width: auto; /* Or whatever */
-    height: auto; /* Or whatever */
-    margin: 20px;  /* Magic! */
-  }
+.recruit-child{
+width: auto; /* Or whatever */
+height: auto; /* Or whatever */
+margin: 20px;  /* Magic! */
+}
