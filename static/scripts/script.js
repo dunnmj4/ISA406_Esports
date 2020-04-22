@@ -1,19 +1,21 @@
-// Sidenav
 $(document).ready(function () {
     $('.sidenav').sidenav();
-});
-
-// Dropdown
-$(document).ready(function () {
     $(".dropdown-trigger").dropdown();
+    $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
 });
 
-// Parallax
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+// // Dropdown
+// $(document).ready(function () {
+    
+// });
 
-//Scrollspy
-$(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-  });
+// // Parallax
+// $(document).ready(function(){
+    
+//   });
+
+// //Scrollspy
+// $(document).ready(function(){
+    
+//   });
