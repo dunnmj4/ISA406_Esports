@@ -24,42 +24,38 @@
     <!-- navbar -->
     <header>
         <div class="navbar-fixed">
-            <nav class="nav-wrapper miami-red">
-                <div class="container">
-                    <!-- defined custom navbar logo styling -->
-                    <img class="navbar-img" src="/static/images/logos/ESports M-01.png"
-                        alt="Miami University E-Sports Logo">
-                    <a href="/pages/index.html" class="brand-logo"></a>
-                    <a href="/pages/index.html" class="sidenav-trigger" data-target="mobile-menu">
-                        <i class="material-icons">menu</i>
-                    </a>
+            <nav class="nav-wrapper miami-red nav-padding">
+                <!-- defined custom navbar logo styling -->
+                <img id="navbar-img" src="/static/images/logos/ESports M-01.png"
+                    alt="Miami University E-Sports Logo">
+                <a href="/pages/index.html" class="brand-logo"></a>
+                <a href="/pages/index.html" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
 
-                    <ul id="dropdown1" class="dropdown-content">
-                        <li><a href="#!">Leadership</a></li>
-                        <li><a href="#!">The Arena</a></li>
-                        <li><a href="/pages/about/sponsors.html">Sponsors</a></li>
-                    </ul>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Leadership</a></li>
+                    <li><a href="#!">The Arena</a></li>
+                    <li><a href="/pages/about/sponsors.html">Sponsors</a></li>
+                </ul>
 
-                    <ul class="right hide-on-med-and-down">
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i
-                                    class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a href="teams.html">TEAMS</a></li>
-                        <li><a href="/pages/schedule.html">SCHEDULE</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="/pages/recruiting.html">RECRUITING</a></li>
-                        <li><a href="/pages/contactForm.html">CONTACT US</a></li>
-                    </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="/pages/teams.html">TEAMS</a></li>
+                    <li><a href="/pages/schedule.html">SCHEDULE</a></li>
+                    <li><a href="/pages/recruiting.html">RECRUITING</a></li>
+                    <li><a href="/pages/contact.html">CONTACT US</a></li>
+                </ul>
 
-                    <!-- <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">DROP DOWN TEST<i
-                            class="material-icons right">arrow_drop_down</i></a></li>
-                            <li><a href="teams.html">TEAMS</a></li>
-                            <li><a href="#">SCHEDULE</a></li>
-                            <li><a href="#">NEWS</a></li>
-                            <li><a href="#">RECRUITING</a></li>
-                    </ul> -->
-                </div>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i
+                        class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="/pages/teams.html">TEAMS</a></li>
+                    <li><a href="/pages/schedule.html">SCHEDULE</a></li>
+                    <li><a href="/pages/recruiting.html">RECRUITING</a></li>
+                    <li><a href="/pages/contact.html">CONTACT US</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -104,34 +100,41 @@
 
     <!-- footer -->
     <footer class="page-footer miami-red">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Mission Statement</h5>
-                    <p class="grey-text text-lighten-4">
-                        The first Division 1 Varsity Esports Program, Est. 2016
-                    </p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Stay up to Date</h5>
-                    <ul>
-                        <a href="https://www.twitch.tv/miamiuniversity"><img src="/static/images/logos/twitch.png"
-                                alt="Miami University Twitch" class="social-icon"></a>
-                        <a href="https://twitter.com/miamiohesports?lang=en"><img src="/static/images/logos/twitter.png"
-                                alt="Miami University Twitter" class="social-icon"></a>
-                    </ul>
-                </div>
+        <div id="footer-content" class="row nav-padding">
+            <div class="col m3 s12">
+                <h5 class="white-text">Connect with Us</h5>
+                <ul>
+                    <a href="https://www.twitch.tv/miamiuniversity"><img src="/static/images/logos/twitch.png"
+                            alt="Miami University Twitch" class="social-icon"></a>
+                    <a href="https://twitter.com/miamiohesports?lang=en"><img src="/static/images/logos/twitter.png"
+                            alt="Miami University Twitter" class="social-icon"></a>
+                    <a href="https://www.instagram.com/miamiohesports/"><img src="/static/images/logos/instagram.png"
+                            alt="Miami University Instagram" class="social-icon"></a>
+                </ul>
             </div>
-
+            <div class="col m4 s12">
+                <h5 class="white-text">Mission Statement</h5>
+                <p class="grey-text text-lighten-4">
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                </p>
+            </div>
+            <div class="col m4 s12">
+                <h5 class="white-text">Navigation</h5>
+                    <ul>
+                        <li>Leadership</li>
+                        <li>The Arena</li>
+                        <a href="/pages/about/sponsors.html"><li>Sponsors</li></a>
+                        <a href="/pages/teams.html"><li>Teams</li></a>
+                        <a href="/pages/schedule.html"><li>Schedule</li></a>
+                        <a href="/pages/recruiting.html"><li>Recruiting</li></a>
+                        <a href="/pages/contact.html"><li>Contact Us</li></a>
+                    </ul>
+            </div>
         </div>
         <div class="footer-copyright">
-            <div class="container">
-                © 2020 Miami University
-            </div>
+            <p id="copyright">© 2020 Miami University</p>
         </div>
-
     </footer>
-
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
