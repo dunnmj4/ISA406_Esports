@@ -1,6 +1,11 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
-    $(".dropdown-trigger").dropdown();
+    $(".dropdown-trigger").dropdown({
+        hover: true,
+        coverTrigger: false,
+        allignment: 'left',
+        stopPropogation: false
+    });
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 });
