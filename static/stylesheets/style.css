@@ -3,12 +3,30 @@
     background-color: #c8102e;
 }
 
+body {
+    margin-left: 7%;
+    margin-right: 7%;
+    background-image: url(https://www.miamioh.edu/_files/images/patterns/collage04.png),url(https://www.miamioh.edu/_files/images/patterns/collage03.png),url(https://www.miamioh.edu/_files/images/patterns/collage02.png),url(https://www.miamioh.edu/_files/images/patterns/collage01.png);
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Navbar and Footer Styling */
 #navbar-img {
-    width: 55px;
-    height: auto;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    width: auto;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.navbar-fixed {
+    height: 110px;
+}
+
+.nav-wrapper {
+    font-weight: 500;
+    padding-top: 14px;
+    height: 90px;
+    width: 86%;
 }
 
 .social-icon {
@@ -18,7 +36,7 @@
 
 .nav-padding {
     padding-left: 2%;
-    padding-right: 2%; 
+    padding-right: 2%;
 }
 
 footer a {
@@ -34,8 +52,9 @@ footer a {
 /* Video Styling */
 .section-video {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    margin-left: 10%;
+    width: 80%;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
