@@ -69,6 +69,20 @@ footer a {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .section-video {
+        position: relative;
+        margin-left: 10%;
+        width: 80%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        object-fit: cover;
+    }
+  }
+
 /* Content Page Styling */
 .recruit-body {
     background-image: url("/static/images/recruitPage/miami_bg.png");
