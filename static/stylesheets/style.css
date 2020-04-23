@@ -49,6 +49,14 @@ footer a {
     padding-left: 1%;
 }
 
+.camps-content {
+    background-color: #fff;
+}
+
+.carouselMainImage {
+    margin-left: 10%;
+}
+
 /* Video Styling */
 .section-video {
     position: relative;
