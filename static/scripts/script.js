@@ -12,15 +12,15 @@ $(document).ready(function () {
 
 // // Dropdown
 // $(document).ready(function () {
-    
+
 // });
 
 // // Parallax
 // $(document).ready(function(){
-    
+
 //   });
 
 // //Scrollspy
 // $(document).ready(function(){
-    
+
 //   });
