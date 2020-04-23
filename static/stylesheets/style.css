@@ -6,7 +6,7 @@
 body {
     margin-left: 7%;
     margin-right: 7%;
-    background-image: url(https://www.miamioh.edu/_files/images/patterns/collage04.png),url(https://www.miamioh.edu/_files/images/patterns/collage03.png),url(https://www.miamioh.edu/_files/images/patterns/collage02.png),url(https://www.miamioh.edu/_files/images/patterns/collage01.png);
+    background-image: url(https://www.miamioh.edu/_files/images/patterns/collage04.png), url(https://www.miamioh.edu/_files/images/patterns/collage03.png), url(https://www.miamioh.edu/_files/images/patterns/collage02.png), url(https://www.miamioh.edu/_files/images/patterns/collage01.png);
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
@@ -81,7 +81,7 @@ footer a {
         overflow: hidden;
         object-fit: cover;
     }
-  }
+}
 
 /* Content Page Styling */
 .recruit-body {
@@ -113,20 +113,23 @@ footer a {
 
 /* Container for flexboxes */
 .recruit-parent {
-display: -webkit-flex;
-display: flex;
-size: 50;
-margin: 50px;
-margin-left: 50px;
-margin-right: 50px;
+    display: -webkit-flex;
+    display: flex;
+    size: 50;
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.recruit-cent{
+.recruit-cent {
     text-align: center;
 }
 
-.recruit-child{
-width: auto; /* Or whatever */
-height: auto; /* Or whatever */
-margin: 20px;  /* Magic! */
+.recruit-child {
+    width: auto;
+    /* Or whatever */
+    height: auto;
+    /* Or whatever */
+    margin: 20px;
+    /* Magic! */
 }
