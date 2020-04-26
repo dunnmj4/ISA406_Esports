@@ -4,8 +4,8 @@
 }
 
 body {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 0%;
+    margin-right: 0%;
     background-image: url(https://www.miamioh.edu/_files/images/patterns/collage04.png), url(https://www.miamioh.edu/_files/images/patterns/collage03.png), url(https://www.miamioh.edu/_files/images/patterns/collage02.png), url(https://www.miamioh.edu/_files/images/patterns/collage01.png);
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -26,7 +26,7 @@ body {
     font-weight: 500;
     padding-top: 14px;
     height: 90px;
-    width: 86%;
+    width: 100%;
 }
 
 .social-icon {
@@ -60,9 +60,9 @@ footer a {
 /* Video Styling */
 .section-video {
     position: relative;
-    margin-left: 10%;
-    width: 80%;
-    height: 85vh;
+    margin-left: 5%;
+    width: 90%;
+    height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
