@@ -58,10 +58,6 @@ footer a {
     color: #c8102e;
 }
 
-.camps-content {
-    background-color: #fff;
-}
-
 .carouselMainImage {
     margin-left: 10%;
     max-width: 100%;
@@ -167,10 +163,6 @@ footer a {
     text-align: center;
 }
 
-.camps-pics{
-    max-width: 100%;
-}
-
 .recruit-child {
     max-width: 100%;
     max-height: 100%;
@@ -180,4 +172,23 @@ footer a {
     /* Or whatever */
     margin: 20px;
     /* Magic! */
+}
+
+.camps-content {
+    background-color: #fff;
+}
+
+.camps-pics{
+    max-width: 100%;
+}
+
+.sponsor-pics {
+    height: 200 px;
+    width: auto;
+}
+
+.content-header {
+    color: white;
+    align-content: center;
+    font-size: 3em;
 }
