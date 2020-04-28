@@ -55,6 +55,7 @@ footer a {
 
 .carouselMainImage {
     margin-left: 10%;
+    max-width: 100%;
 }
 
 /* Video Styling */
@@ -90,6 +91,25 @@ footer a {
         object-fit: cover;
     }
 }
+/* For fitting webpages to mobile screens */
+
+@media screen and (max-width: 900px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .recruit-body{
+        background-image: none;
+    }
+
+    div#hidable{
+        display: none !important;
+    }
+}
+
+
+
 
 /* Content Page Styling */
 .recruit-body {
@@ -136,13 +156,20 @@ footer a {
     margin: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: white;
 }
 
 .recruit-cent {
     text-align: center;
 }
 
+.camps-pics{
+    max-width: 100%;
+}
+
 .recruit-child {
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
     /* Or whatever */
     height: auto;
