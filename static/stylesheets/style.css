@@ -58,6 +58,11 @@ footer a {
     color: #c8102e;
 }
 
+#contact-button-recruit {
+    background-color: #c8102e;
+    color: white;
+}
+
 .carouselMainImage {
     margin-left: 10%;
     max-width: 100%;
