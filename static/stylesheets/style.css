@@ -108,8 +108,17 @@ footer a {
         background-image: none;
     }
 
-    div#hidable{
-        display: none !important;
+    .recruit-parent{
+        flex-wrap: wrap;
+    }
+
+   
+}
+
+@media screen and (max-width: 450px) {
+    #recruit-pic{
+        width: 204px;
+        height: auto;
     }
 }
 
@@ -164,6 +173,8 @@ footer a {
     margin-left: 50px;
     margin-right: 50px;
     background-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .recruit-cent {
@@ -171,14 +182,13 @@ footer a {
 }
 
 .recruit-child {
-    max-width: 100%;
-    max-height: 100%;
     width: auto;
     /* Or whatever */
     height: auto;
     /* Or whatever */
     margin: 20px;
     /* Magic! */
+    
 }
 
 .camps-content {
