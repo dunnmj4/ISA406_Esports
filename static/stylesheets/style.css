@@ -43,10 +43,19 @@ footer a {
     color: white;
 }
 
+.dropdown-content li a {
+    color: #c8102e;
+}
+
 #copyright {
     margin-top: 0%;
     margin-bottom: 0%;
     padding-left: 1%;
+}
+
+#contact-button {
+    background-color: white;
+    color: #c8102e;
 }
 
 .camps-content {
@@ -108,9 +117,6 @@ footer a {
     }
 }
 
-
-
-
 /* Content Page Styling */
 .recruit-body {
     background-image: url("/static/images/recruitPage/miami_bg.png");
@@ -119,14 +125,12 @@ footer a {
     background-size: cover;
 }
 
-
 .sponsor-body {
     background-image: url("/static/images/backgrounds/keyboard.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 
 .section h1 {
     text-align: center;
