@@ -21,14 +21,47 @@
 </head>
 
 <body class="schedule-body">
-    <!-- navbar -->
-    <header class="schedule-header">
+    <header>
         <div class="navbar-fixed">
-            <nav class="nav-wrapper miami-red">
-                Placeholder for final navbar
+            <nav class="nav-wrapper miami-red nav-padding">
+                <!-- defined custom navbar logo styling -->   
+                <a href="index.html" class="brand-logo">
+                    <img id="navbar-img" src="../static/images/logos/ESports M-01.png" alt="Miami University E-Sports Logo">
+                </a>
+                <a href="index.html" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="leadership.html">LEADERSHIP</a></li>
+                    <li><a href="arena.html">THE ARENA</a></li>
+                    <li><a href="sponsors.html">SPONSORS</a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="teams.html">TEAMS</a></li>
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                    <li><a href="recruiting.html">RECRUITING</a></li>
+                    <li><a href="camps.html">CAMPS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
             </nav>
+            <div class="nav-wrapper">
+                <ul class="sidenav" id="mobile-menu">
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="arena.html">The Arena</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="recruiting.html">Recruiting</a></li>
+                    <li><a href="camps.html">Camps</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </header>
+
     <div>
         <h1 class="recruit-cent content-header"><b>Our Schedule</b></h1>
     </div> 
@@ -42,9 +75,45 @@
         </div>
     </div>    
 
+    <!-- footer -->
     <footer class="page-footer miami-red">
         <div id="footer-content" class="row nav-padding">
-            Placeholder for final footer
+            <div class="col m4 s12 center-align">
+                <h5 class="white-text">Questions?</h5>
+                <p class="grey-text text-lighten-4">
+                    Fill out this form and we <br> will be in contact with you!
+                </p>
+                <a href="contact.html" class="btn-large" id="contact-button">CONTACT US</a>
+            </div>        
+            <div class="col m3 s12 center-align">
+                <h5 class="white-text">Connect</h5>
+                <p class="grey-text text-lighten-4">
+                    Connect with us to stay up to date <br> on the Miami Esports team
+                </p>
+                <ul>
+                    <a href="https://www.twitch.tv/miamiuniversity"><img src="../static/images/logos/twitch.png"
+                            alt="Miami University Twitch" class="social-icon"></a>
+                    <a href="https://twitter.com/miamiohesports?lang=en"><img src="../static/images/logos/twitter.png"
+                            alt="Miami University Twitter" class="social-icon"></a>
+                    <a href="https://www.instagram.com/miamiohesports/"><img src="../static/images/logos/instagram.png"
+                            alt="Miami University Instagram" class="social-icon"></a>
+                    <a href="mailto:phill.alexander@miamioh.edu"><img src="../static/images/logos/email.png"
+                            alt="Miami University Email" class="social-icon"></a>
+                </ul>
+            </div>
+            <div class="col m4 s12 center-align">
+                <h5 class="white-text">Navigate</h5>
+                <ul>
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="arena.html">The Arena</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="recruiting.html">Recruiting</a></li>
+                    <li><a href="camps.html">Camps</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
         <div class="footer-copyright">
             <p id="copyright">© 2020 Miami University</p>
