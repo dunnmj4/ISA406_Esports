@@ -26,9 +26,10 @@
     <header>
         <div class="navbar-fixed">
             <nav class="nav-wrapper miami-red nav-padding">
-                <!-- defined custom navbar logo styling -->   
+                <!-- defined custom navbar logo styling -->
                 <a href="index.html" class="brand-logo">
-                    <img id="navbar-img" src="../static/images/logos/ESports M-01.png" alt="Miami University E-Sports Logo">
+                    <img id="navbar-img" src="../static/images/logos/ESports M-01.png"
+                        alt="Miami University E-Sports Logo">
                 </a>
                 <a href="index.html" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
@@ -41,7 +42,8 @@
                 </ul>
 
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
                     <li><a href="teams.html">TEAMS</a></li>
                     <li><a href="schedule.html">SCHEDULE</a></li>
                     <li><a href="recruiting.html">RECRUITING</a></li>
@@ -63,44 +65,51 @@
             </div>
         </div>
     </header>
+    <div class="row">
+        <div class="col s12 l12 center-align">
+            <div class="index-container">
+                <!-- Background Video and Overlay text-->
+                <div class="section-video">
+                    <div class="row">
+                        <div class="col s12 l12 center-align">
+                            <video width="90%" autoplay loop muted>
+                                <source src="../static/videos/Background_Video.m4v" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- Background Video and Overlay text-->
-    <div class="section-video">
-        <div class="video-container">
-            <video width="100%" autoplay loop muted>
-                <source src="../static/videos/Background_Video.m4v" type="video/mp4">
-            </video>
+                <!-- Intro Text / Twitch Widget -->
+                <div class="section">
+                    <!--   Icon Section   -->
+                    <div class="row">
+                        <!-- Twitter Widget -->
+                        <div class="col s12 l6 center-align">
+                            <a class="twitter-timeline" data-width="80%" data-height="500"
+                                href="https://twitter.com/MiamiOHEsports?ref_src=twsrc%5Etfw">Tweets by
+                                MiamiOHEsports</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+
+                        <!-- Twitch Widget -->
+                        <div class="col s12 l6 center-align">
+                            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                            <div id="SamplePlayerDivID"></div>
+                            <script type="text/javascript">
+                                var options = {
+                                    width: "80%",
+                                    height: "500",
+                                    channel: "miamiuniversity",
+                                };
+                                var player = new Twitch.Player("SamplePlayerDivID", options);
+                                player.setVolume(0.5);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- Intro Text / Twitch Widget -->
-    <div class="section">
-        <!--   Icon Section   -->
-        <div class="row">
-            <!-- Twitter Widget -->
-            <div class="col s12 l6">
-                <a class="twitter-timeline" data-width="100%" data-height="500"
-                    href="https://twitter.com/MiamiOHEsports?ref_src=twsrc%5Etfw">Tweets by MiamiOHEsports</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-
-            <!-- Twitch Widget -->
-            <div class="col s12 l6">
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-                <div id="SamplePlayerDivID"></div>
-                <script type="text/javascript">
-                    var options = {
-                        width: "100%",
-                        height: "500",
-                        channel: "miamiuniversity",
-                    };
-                    var player = new Twitch.Player("SamplePlayerDivID", options);
-                    player.setVolume(0.5);
-                </script>
-            </div>
-        </div>
-    </div>
-
     <!-- footer -->
     <footer class="page-footer miami-red">
         <div id="footer-content" class="row nav-padding">
@@ -110,7 +119,7 @@
                     Fill out this form and we <br> will be in contact with you!
                 </p>
                 <a href="contact.html" class="btn-large" id="contact-button">CONTACT US</a>
-            </div>        
+            </div>
             <div class="col m3 s12 center-align">
                 <h5 class="white-text">Connect</h5>
                 <p class="grey-text text-lighten-4">
