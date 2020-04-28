@@ -115,14 +115,21 @@ footer a {
 
 /* Content Page Styling */
 .recruit-body {
-    background-image: url("/static/images/recruitPage/miami_bg.png");
+    background-image: url("../images/recruitPage/miami_bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .sponsor-body {
-    background-image: url("/static/images/backgrounds/keyboard.jpg");
+    background-image: url("../images/backgrounds/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.schedule-body {
+    background-image: url("../images/backgrounds/room.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -191,4 +198,12 @@ footer a {
     color: white;
     align-content: center;
     font-size: 3em;
+}
+
+.red-content-header {
+    color: #c8102e;
+    align-content: center;
+    text-align: center;
+    font-size: 3em;
+    font: bold;
 }
