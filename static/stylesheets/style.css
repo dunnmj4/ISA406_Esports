@@ -106,14 +106,14 @@ footer a {
 }
 
 .sponsor-body {
-    background-image: url("../images/backgrounds/keyboard.jpg");
+    background-image: url("../images/backgrounds/whitekeyboard.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .schedule-body {
-    background-image: url("../images/backgrounds/room.jpg");
+    background-image: url("../images/backgrounds/whiteroom.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
