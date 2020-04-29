@@ -64,10 +64,11 @@
     </header>
 
     <div class="row">
-        <div class="col s12 l12 center-align">
-            <iframe
+        <div class="col s12 center-align">
+            <iframe id="contact-frame"
                 src="https://docs.google.com/forms/d/e/1FAIpQLScdnD42eGl7FKiPm4L_4VRx4bdUvoU_gfIHdQGpRiocZBZyOQ/viewform?embedded=true"
-                width="350" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                frameborder="0" marginheight="0" marginwidth="0"
+                onload="this.width=screen.width-(screen.width*0.1);this.height=screen.height+(screen.height*0.5);">Loading…</iframe>
         </div>
     </div>
     <!-- footer -->
