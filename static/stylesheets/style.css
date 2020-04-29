@@ -86,8 +86,6 @@ footer a {
     .recruit-parent{
         flex-wrap: wrap;
     }
-
-   
 }
 
 @media screen and (max-width: 450px) {
@@ -98,25 +96,26 @@ footer a {
 }
 
 /* Content Page Styling */
-.recruit-body {
-    background-image: url("../images/recruitPage/white_miami_bg.jpg");
+.schedule-body, .sponsor-body, .recruit-body, .leadership-body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.recruit-body {
+    background-image: url("../images/recruitPage/white_miami_bg.jpg");
 }
 
 .sponsor-body {
     background-image: url("../images/backgrounds/whitekeyboard.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .schedule-body {
     background-image: url("../images/backgrounds/whiteroom.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+}
+
+.leadership-body {
+    background-image: url("../images/backgrounds/leadership.jpg");
 }
 
 .section h1 {
@@ -210,6 +209,10 @@ footer a {
     text-align: center;
     font-size: 3em;
     font: bold;
+}
+
+.red-text {
+    color: #c8102e;
 }
 
 /* Slideshow container */
