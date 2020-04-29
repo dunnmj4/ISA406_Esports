@@ -153,9 +153,7 @@ footer a {
     display: -webkit-flex;
     display: flex;
     size: 50;
-    margin: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 10%;
     background-color: white;
     justify-content: center;
     align-items: center;
