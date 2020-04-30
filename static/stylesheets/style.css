@@ -95,10 +95,15 @@ footer a {
 .schedule-body,
 .sponsor-body,
 .recruit-body,
+.camps-body,
 .leadership-body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.camps-body {
+    background-image: url("../images/recruitPage/camp-background.jpg");
 }
 
 .recruit-body {
