@@ -64,12 +64,8 @@ footer a {
 }
 
 .carouselMainImage {
-    max-width: 50%;
+    max-width: 200%;
     height: auto;
-    padding: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    float: left;
 }
 
 /* For fitting webpages to mobile screens */
