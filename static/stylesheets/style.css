@@ -79,44 +79,46 @@ footer a {
         flex-direction: column;
     }
 
-    .recruit-body{
+    .recruit-body {
         background-image: none;
     }
 
-    .recruit-parent{
+    .recruit-parent {
         flex-wrap: wrap;
     }
-
-   
 }
 
 @media screen and (max-width: 450px) {
-    #recruit-pic{
+    #recruit-pic {
         width: 204px;
         height: auto;
     }
 }
 
 /* Content Page Styling */
-.recruit-body {
-    background-image: url("../images/recruitPage/white_miami_bg.jpg");
+.schedule-body,
+.sponsor-body,
+.recruit-body,
+.leadership-body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.recruit-body {
+    background-image: url("../images/recruitPage/white_miami_bg.jpg");
 }
 
 .sponsor-body {
     background-image: url("../images/backgrounds/whitekeyboard.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .schedule-body {
     background-image: url("../images/backgrounds/whiteroom.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+}
+
+.leadership-body {
+    background-image: url("../images/backgrounds/leadership.jpg");
 }
 
 .arena-body{
@@ -151,9 +153,9 @@ footer a {
     padding-top: 2%;
     width: 85%;
     background-color: white;
-    box-shadow: -1px -1px 10px rgba(0,0,0,0.5),
-    0px 0px 1px rgba(0,0,0,0.5),
-    0px 0px 1px rgba(0,0,0,0.2);
+    box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.5),
+        0px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Container for flexboxes */
@@ -161,18 +163,16 @@ footer a {
     display: -webkit-flex;
     display: flex;
     size: 50;
-    margin: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 10%;
     background-color: white;
     justify-content: center;
     align-items: center;
-    }
+}
 
 .arena-parent {
     display: flex;
     width: 60%;
-    margin: 50px;       
+    margin: 50px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -189,14 +189,14 @@ footer a {
     /* Or whatever */
     margin: 20px;
     /* Magic! */
-    
+
 }
 
 .camps-content {
     background-color: #fff;
 }
 
-.camps-pics{
+.camps-pics {
     max-width: 100%;
 }
 
@@ -220,20 +220,25 @@ footer a {
     text-align: center;
 }
 
+.red-text {
+    color: #c8102e;
+}
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+}
+
+/* Hide the images by default */
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -246,21 +251,22 @@ footer a {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -268,19 +274,19 @@ footer a {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -289,31 +295,42 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
+}
 
-  #slide{
+#slide {
     vertical-align: middle;
     padding: 20px;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
