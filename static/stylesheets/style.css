@@ -119,6 +119,13 @@ footer a {
     background-size: cover;
 }
 
+.arena-body{
+    background-image: url("../images/arena/arena-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .section h1 {
     text-align: center;
     font-size: 3rem;
@@ -210,6 +217,7 @@ footer a {
     text-align: center;
     font-size: 3em;
     font: bold;
+    text-align: center;
 }
 
 /* Slideshow container */
